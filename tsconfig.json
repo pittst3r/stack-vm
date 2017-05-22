@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "inlineSources": true,
+    "inlineSourceMap": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "newLine": "LF",
+    "outDir": "dist",
+    "lib": [
+      "es2015",
+      "es2015.iterable",
+      "dom"
+    ]
+  }
+}
