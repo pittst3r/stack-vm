@@ -45,9 +45,10 @@ export default class StackVM {
     this.operations[opcode] = operation;
   }
 
-  load(program: Program): void {
-    this.scan(program);
-    this.program = program;
+  load(program: string): void {
+    let decoded = JSON.parse(program);
+    this.scan(decoded);
+    this.program = decoded;
   }
 
   run(): IterableIterator<Instruction> {

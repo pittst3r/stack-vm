@@ -10,6 +10,9 @@
     "declaration": true,
     "newLine": "LF",
     "outDir": "dist",
+    "types": [
+      "node"
+    ],
     "lib": [
       "es2015",
       "es2015.iterable",
